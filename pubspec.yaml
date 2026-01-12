@@ -1,0 +1,26 @@
+name: reddit_style_comments
+description: "A highly customizable Flutter package for building recursive, Reddit-style threaded comment trees with support for voting logic, nested replies, and smooth animations."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  bloc: ^9.2.0
+  equatable: ^2.0.8
+  expandable_text: ^2.3.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  flutter_bloc: ^9.1.1
+  timeago: ^3.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+flutter:
