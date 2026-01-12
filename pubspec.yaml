@@ -1,18 +1,20 @@
 name: reddit_style_comments
 description: "A highly customizable Flutter package for building recursive, Reddit-style threaded comment trees with support for voting logic, nested replies, and smooth animations."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ashar-Azeem/Reddit-Style-Comments
+repository: https://github.com/Ashar-Azeem/Reddit-Style-Comments
+issue_tracker: https://github.com/Ashar-Azeem/Reddit-Style-Comments/issues
 
 environment:
-  sdk: ^3.10.4
-  flutter: ">=1.17.0"
+  sdk: '>=3.10.4 <4.0.0'
+  flutter: ">=3.10.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
   bloc: ^9.2.0
   equatable: ^2.0.8
   expandable_text: ^2.3.0
-  flutter:
-    sdk: flutter
   flutter_animate: ^4.5.2
   flutter_bloc: ^9.1.1
   timeago: ^3.7.1
@@ -22,5 +24,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
 
-
 flutter:
+  # If you decided to keep the avatars in the package, 
+  # don't forget to uncomment and list them here:
+  # assets:
+  #   - assets/Avatars/

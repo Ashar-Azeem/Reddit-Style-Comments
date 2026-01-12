@@ -1,39 +1,40 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Reddit Style Comments
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A highly customizable Flutter package for building recursive, Reddit-style threaded comment trees. It handles the complex logic of nesting, indentation, and thread lines automatically, allowing you to focus on your app's unique style and logic.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+[![pub package](https://img.shields.io/pub/v/reddit_style_comments.svg)](https://pub.dev/packages/reddit_style_comments)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Ashar-Azeem/Reddit-Style-Comments/blob/main/LICENSE)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
-## Features
+## ✨ Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* **Recursive Nesting:** Supports infinite levels of nested replies with automatic indentation.
+* **Smart Interaction:** Built-in callbacks for upvoting, downvoting, replying, and reporting.
+* **Animated UI:** Smooth scaling animations for voting actions powered by `flutter_animate`.
+* **Highly Customizable:** * Control background, text, and active/inactive vote colors.
+    * Customizable vertical thread lines to visualize comment depth.
+    * Support for both Network and Asset avatars.
+* **Performance Optimized:** Uses a non-blocking `Column` based recursive approach to prevent layout crashes.
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## 📸 Screenshot
 
-## Usage
+| Threaded View | Nested Levels |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Ashar-Azeem/Reddit-Style-Comments/main/reddit_style_comment(gif).gif" width="300"> | <img src="https://raw.githubusercontent.com/Ashar-Azeem/Reddit-Style-Comments/main/reddit_style_comment(image).jpg" width="300"> |
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
-```dart
-const like = 'sample';
-```
+---
 
-## Additional information
+## 🚀 Getting Started
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+### Installation
+
+Add the dependency to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  reddit_style_comments: ^0.0.1
+
